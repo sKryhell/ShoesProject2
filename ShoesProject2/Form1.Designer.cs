@@ -1,6 +1,6 @@
 ﻿namespace ShoesProject2
 {
-    partial class Form1
+    partial class FormLogin
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormLogin));
             pbLogo = new PictureBox();
             pnMain = new Panel();
             btnGuest = new Button();
@@ -125,7 +125,7 @@
             lbLogin.TabIndex = 0;
             lbLogin.Text = "Логин";
             // 
-            // Form1
+            // FormLogin
             // 
             AutoScaleDimensions = new SizeF(9F, 19F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -138,7 +138,7 @@
             Margin = new Padding(4);
             MaximizeBox = false;
             MinimizeBox = false;
-            Name = "Form1";
+            Name = "FormLogin";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Вход в систему";
             ((System.ComponentModel.ISupportInitialize)pbLogo).EndInit();

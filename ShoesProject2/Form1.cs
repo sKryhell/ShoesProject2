@@ -2,12 +2,12 @@ using ShoesProject2.models;
 
 namespace ShoesProject2
 {
-    public partial class Form1 : Form
+    public partial class FormLogin : Form
     {
 
         public User CurrentUser { get; private set; }
         public bool IsGuest { get; private set; }
-        public Form1()
+        public FormLogin()
         {
             InitializeComponent();
         }
