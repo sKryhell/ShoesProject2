@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace ShoesProject2.models;
+﻿namespace ShoesProject2.models;
 
 public partial class Status
 {
